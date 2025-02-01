@@ -1,25 +1,27 @@
 ---
 layout: about
-title: about
+title: About
+subtitle: Professor
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+description: 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: Jilin.jpeg
+  address: 
 
-news: true # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Professor, School of Data Science and Engineering, East China Normal University <br>
+Room 217 at Dili Building, 3663 North ZhongShan Road, Shanghai, China <br>
+jlhu [at] dase.ecnu.edu.cn <br>
+[Google scholar](https://scholar.google.dk/citations?user=6eSvRMkAAAAJ&hl=en) | [DBLP](https://dblp.org/pid/189/6195.html)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Jilin Hu is a Professor at the School of Data Science and Engineering, East China Normal University. Prior to that, he was an Associate Professor at the Department of Computer Science, Aalborg University. He was a Research Assocaite at Inception Institute of Artificial Intelligence (UAE) under the supervision of  [Prof. Jianbing Shen](https://scholar.google.com/citations?user=_Q3NTToAAAAJ&hl=zh-CN). He obtained the Ph.D. degree from Aalborg Unviersity in 2019, under the supervision of [Prof. Christian S. Jensen](http://people.cs.aau.dk/~csj/) and [Prof. Bin Yang](http://people.cs.aau.dk/~byang/). From Oct. 2017 to April. 2018, he visited University of California, Berkeley under the supervision of [Prof. Alexandre Bayen](https://www2.eecs.berkeley.edu/Faculty/Homepages/bayen.html).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Research interest:** Spatio-Temporal Data Management, Traffic Data Analysis, Graph Neural Network 
+
+*Never stop looking for highly self-motivated students.*
