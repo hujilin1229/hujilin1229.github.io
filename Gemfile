@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'faraday', '~> 2.7', '>= 2.7.11'
 gem 'faraday-retry'
 gem "jekyll", "~> 4.2"
+gem 'rmagick'
 group :jekyll_plugins do
     gem "jekyll-include-cache" 
     gem 'jekyll-archives'
@@ -19,6 +20,6 @@ group :jekyll_plugins do
     #gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
-    gem 'rmagick'
+    #gem 'rmagick'
     gem 'jekyll-responsive-image'
 end
