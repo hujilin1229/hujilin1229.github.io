@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'faraday', '~> 2.7', '>= 2.7.11'
 gem 'faraday-retry'
 gem "jekyll", "~> 4.2"
-gem 'rmagick', '>=4.2.3'
+gem 'rmagick', '~>=6.1.1'
 group :jekyll_plugins do
     gem "jekyll-include-cache" 
     gem 'jekyll-archives'
