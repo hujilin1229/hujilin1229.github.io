@@ -7,28 +7,28 @@ ninja.data = [{
     title: "About",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
   },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/Publications/";
+            window.location.href = "/Publications/";
           },
         },{id: "nav-scientific-service",
           title: "Scientific Service",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/services/";
+            window.location.href = "/services/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/Teaching/";
+            window.location.href = "/Teaching/";
           },
         },{id: "news-one-paper-is-accepted-by-informations-sciences",
           title: 'One paper is accepted by Informations Sciences!',
