@@ -22,6 +22,6 @@ jlhu [at] dase.ecnu.edu.cn <br>
 
 Jilin Hu is a Professor at the School of Data Science and Engineering, East China Normal University. Prior to that, he was an Associate Professor at the Department of Computer Science, Aalborg University. He was a Research Assocaite at Inception Institute of Artificial Intelligence (UAE) under the supervision of  [Prof. Jianbing Shen](https://scholar.google.com/citations?user=_Q3NTToAAAAJ&hl=zh-CN). He obtained the Ph.D. degree from Aalborg Unviersity in 2019, under the supervision of [Prof. Christian S. Jensen](http://people.cs.aau.dk/~csj/) and [Prof. Bin Yang](http://people.cs.aau.dk/~byang/). From Oct. 2017 to April. 2018, he visited University of California, Berkeley under the supervision of [Prof. Alexandre Bayen](https://www2.eecs.berkeley.edu/Faculty/Homepages/bayen.html).
 
-**Research interest:** Spatio-Temporal Data Management, Traffic Data Analysis, Graph Neural Network, AI For Science
+**Research interest:** Spatio-Temporal Data Management, Traffic Data Analysis, AI For Science
 
 *Never stop looking for highly self-motivated students.*
