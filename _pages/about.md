@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 School of Data Science and Engineering, East China Normal University <br>
-Room 217 at Dili Building, 3663 North ZhongShan Road, Shanghai, China <br>
+Room 217 at Dili Building, 3663 North Zhongshan Road, Shanghai, China <br>
 jlhu [at] dase.ecnu.edu.cn <br>
 [Google scholar](https://scholar.google.dk/citations?user=6eSvRMkAAAAJ&hl=en) | [DBLP](https://dblp.org/pid/189/6195.html)
 
