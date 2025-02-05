@@ -19,5 +19,5 @@ group :jekyll_plugins do
     #gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
-    gem 'jekyll-responsive-image'
+    #gem 'jekyll-responsive-image'
 end
