@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://hujilin1229.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://hujilin1229.github.io//sitemap.xml
