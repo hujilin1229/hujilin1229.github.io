@@ -53,13 +53,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 #twitter_username: # your Twitter handle
 linkedin_username: jilin-hu-b13b266b # your LinkedIn user name
 scholar_userid: 6eSvRMkAAAAJ # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0002-7739-7769 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://faculty.ecnu.edu.cn/_s37/hjl2/main.psp # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/189/6195.html # your DBLP profile url
