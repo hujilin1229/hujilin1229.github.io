@@ -23,8 +23,8 @@ nav: true
 - 6.2024 to present, Yan Lin, AI for Material
 
 ##### Ph.D. Students
-- 9.2025 to present, Xiangfei Qiu, Time Series Data Analytics (PVLDB'24, KDD'25, PVLDB'25, NeurIPS'25).
-- 9.2024 to present, Kai Zhang, Lightweight ML (EMNLP'25 findings, EMNLP'25 industry (**Best Paper Award**)).
+- 9.2025 to present, Xiangfei Qiu, Time Series Data Analytics (PVLDB'24---**Best Paper Award Nomination**, KDD'25, PVLDB'25, NeurIPS'25).
+- 9.2024 to present, Kai Zhang, Lightweight ML (EMNLP'25 findings, EMNLP'25 industry---**Best Paper Award**).
 - 9.2024 to present, Bo Peng, Lightweight ML. 
 - 9.2024 to present, Linwei Zhu, Multi-modal Learning.
 - 9.2023 to present, Hongfan Gao, Lightweight ML (KDD'25).
