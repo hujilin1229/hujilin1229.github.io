@@ -2,14 +2,14 @@
 layout: page
 permalink: /Publications/
 title: Publications
-description: 
+description: Preprints, conference papers, and journal articles.
 years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]
 nav: true
 ---
 
-[[Preprint papers](#preprint-papers)] |  [[Conference papers](#conference-papers)] | [[Journal papers](#journal-papers)]
+[[Preprints](#preprint-papers)] | [[Conference Papers](#conference-papers)] | [[Journal Articles](#journal-papers)]
 
-#### Preprint papers
+#### Preprints
 
 <div class="publications">
 
@@ -19,7 +19,7 @@ nav: true
 
 </div>
 
-#### Conference papers
+#### Conference Papers
 
 <div class="publications">
 
@@ -30,7 +30,7 @@ nav: true
 
 </div>
 
-#### Journal papers
+#### Journal Articles
 
 <div class="publications">
 

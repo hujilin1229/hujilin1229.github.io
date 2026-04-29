@@ -6,15 +6,18 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Jilin
 middle_name: 
 last_name: Hu
-email: jlhu [at] dase.ecnu.edu.cn
-  #description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  #A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-  #footer_text: >
-  #  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+email: jlhu@dase.ecnu.edu.cn
+description: >
+  Jilin Hu is a Full Professor at the School of Data Science and Engineering,
+  East China Normal University, working on spatio-temporal data management,
+  traffic data analytics, time series, and AI for science.
+keywords: spatio-temporal data management, traffic data analytics, time series, AI for science, data science
+footer_text: >
+  School of Data Science and Engineering, East China Normal University.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: dase.png # the emoji used as the favicon
-url: https://hujilin1229.github.io/ #https://homes.cs.aau.dk  # the base hostname & protocol for your site
+url: https://hujilin1229.github.io #https://homes.cs.aau.dk  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -42,7 +45,8 @@ max_width: 1000px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_schema_org: true
+og_image: https://hujilin1229.github.io/assets/img/Jilin.jpeg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -65,7 +69,7 @@ wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/189/6195.html # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-rss_icon: true
+rss_icon: false
 
 contact_note: 
   #You can even add a little note about which of these is the best way to reach you.
@@ -237,7 +241,7 @@ jekyll-diagrams:
 
 enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_mansory:             false   # enables automatic project cards arangement
+enable_mansory:             false   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts

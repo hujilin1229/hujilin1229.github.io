@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Teaching
+title: Teaching & Students
 permalink: /Teaching/
 nav: true
 ---
 
 ##### Courses
-- Mobile data and location-based services (SW8, Master Level)
-- Graph Neural Networks (SW9, Master Level)
-- Data Power Platform (Master Level)
-- Introduction to Data Science and Enginnering (Bachelor Level)
+- Mobile Data and Location-Based Services (SW8, Master's Level)
+- Graph Neural Networks (SW9, Master's Level)
+- Data Power Platform (Master's Level)
+- Introduction to Data Science and Engineering (Bachelor's Level)
 
 ##### Group Project Supervisor
 - SW3, SW5, SW6, BaIT3, BaIT4
@@ -19,7 +19,7 @@ nav: true
   - BaIT3
   - SW9
   
-##### Post-Doc
+##### Postdoctoral Researcher
 - 6.2024 to present, Yan Lin, AI for Material
 
 ##### Ph.D. Students
@@ -41,7 +41,6 @@ nav: true
 - 10.2025 to present, Tianen Shen. 
 - 9.2024 to present, Jiahong Lv,  Xuyuan Liu (AAAI'25), Xiangyu Xu, Kenan Wang, Yue Han, Yuntian Yang. 
 - 11.2023 to present, Chenxu Han (AAAI'25), Weiqing Zhu. 
-
 
 
 
