@@ -1,0 +1,100 @@
+\documentclass  [10pt,oneside,a4paper]  {book}
+
+\usepackage     [utf8]                                              {inputenc}
+\usepackage     [T1]                                                {fontenc}
+\usepackage     [left=3.5cm,right=2.5cm,tmargin=2.5cm,bmargin=2.5cm]{geometry}
+
+
+% \usepackage     [sorting=ydnt,defernumbers=true,maxbibnames=99]{biblatex}
+\usepackage[
+% backend=biber,
+% giveninits=true, %名字缩写
+defernumbers=true, %数字编号
+style=trad-plain,
+sorting=ydnt,
+maxbibnames=99,
+url=false,
+isbn=false,
+doi=false,
+]{biblatex}
+\addbibresource {../_bibliography/journal.bib}
+\addbibresource {../_bibliography/confs.bib}
+
+% Highlighting my own name in the references section
+\usepackage{xpatch}% or use http://tex.stackexchange.com/a/40705
+
+\makeatletter
+\newbibmacro*{name:bold}[2]{%
+  \edef\blx@tmp@name{\expandonce#1, \expandonce#2}%
+  \def\do##1{\ifdefstring{\blx@tmp@name}{##1}{\bfseries\listbreak}{}}%
+  \dolistloop{\boldnames}}
+\newcommand*{\boldnames}{}
+\makeatother
+
+\xpretobibmacro{name:family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:given-family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:family-given}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:delim}{\begingroup\normalfont}{}{}
+
+\xapptobibmacro{name:family}{\endgroup}{}{}
+\xapptobibmacro{name:given-family}{\endgroup}{}{}
+\xapptobibmacro{name:family-given}{\endgroup}{}{}
+\xapptobibmacro{name:delim}{\endgroup}{}{}
+
+% List your own name variants that are to be highlighted
+\forcsvlist{\listadd\boldnames}
+{{Hu, Jilin}, {Hu, J.}, {J., Hu\bibnamedelima}, {Jilin, Hu}}
+
+\usepackage     {silence}
+\usepackage     {indentfirst}
+\usepackage     {mathpazo}
+\usepackage     {setspace}  
+\usepackage     {titlesec}
+
+\titleformat{\chapter}[hang]{\raggedright\Large\bfseries}{\arabic{chapter}.\space}{0pt}{}{}
+\titlelabel{\thetitle.\space}
+\titlespacing*{\chapter}{0pt}{-\baselineskip}{\baselineskip}
+
+\begin{document}
+
+% \chapter{Chapter 1}
+
+% Lorem\cite{nietzsche:ksa1}~\cite{sigfridsson}~\cite{moraux}~\cite{knuth:ct:c}.
+
+% \printbibheading  [title=BIBLIOGRAPHY,heading=subbibliography]
+% \printbibliography[segment=\therefsegment,type=book,heading=subbibintoc,title={Books},resetnumbers=false]
+% \printbibliography[segment=\therefsegment,type=article,heading=subbibintoc,title={Articles},resetnumbers=false]
+% \printbibliography[segment=\therefsegment,type=online,heading=subbibintoc,title={Online},resetnumbers=false]
+% \printbibliography[segment=\therefsegment,type=inproceedings,heading=subbibintoc,title={Conferences}, resetnumbers=false]
+
+% \vspace{5mm}
+% {\let\clearpage\relax \chapter{Chapter 2}}
+
+% Lorem~\cite{vizedom:related}~\cite{gerhardt}~\cite{augustine}~\cite{ctan}.
+
+% \printbibheading  [title=BIBLIOGRAPHY,heading=subbibliography]
+% \printbibliography[segment=\therefsegment,type=book,heading=subbibintoc,title={Books},resetnumbers=false]
+% \printbibliography[segment=\therefsegment,type=article,heading=subbibintoc,title={Articles},resetnumbers=false]
+% \printbibliography[segment=\therefsegment,type=online,heading=subbibintoc,title={Online},resetnumbers=false]
+% \printbibliography[segment=\therefsegment,type=inproceedings,heading=subbibintoc,title={Conferences}, resetnumbers=false]
+
+% \vspace{5mm}
+% {\let\clearpage\relax \chapter{Chapter 3}}
+
+% Lorem~\cite{wassenberg}~\cite{baez/online}.
+
+\nocite{*}
+
+\printbibheading  [title=BIBLIOGRAPHY,heading=subbibliography]
+\printbibliography[segment=\therefsegment,type=book,heading=subbibintoc,title={Books},resetnumbers=false]
+\printbibliography[segment=\therefsegment,type=article,heading=subbibintoc,title={Journals},resetnumbers=false]
+\printbibliography[segment=\therefsegment,type=online,heading=subbibintoc,title={Online},resetnumbers=false]
+\printbibliography[segment=\therefsegment,type=inproceedings,heading=subbibintoc,title={Conferences}, resetnumbers=true]
+
+% \printbibheading  [title=GLOBAL BIBLIOGRAPHY AT THE END,heading=subbibliography]
+% \printbibliography[type=book,heading=subbibliography,title={Books},resetnumbers=false]
+% \printbibliography[type=article,heading=subbibliography,title={Articles},resetnumbers=false]
+% \printbibliography[type=online,heading=subbibliography,title={Online},resetnumbers=false]
+% \printbibliography[type=inproceedings,heading=subbibliography,title={Conferences},resetnumbers=false]
+
+\end{document}

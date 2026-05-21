@@ -1,0 +1,77 @@
+% !TeX encoding = UTF-8
+% !TeX program = xelatex
+% !TeX spellcheck = en_US
+
+\documentclass[a4paper,skipsamekey,11pt,english]{curve}
+
+\usepackage{fontspec}
+\setmainfont{Verdana}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+
+\usepackage{settings}
+\addbibresource{../_bibliography/journal.bib}
+\addbibresource{../_bibliography/confs.bib}
+
+\usepackage{xpatch}
+
+\makeatletter
+\newbibmacro*{name:bold}[2]{%
+  \edef\blx@tmp@name{\expandonce#1, \expandonce#2}%
+  \def\do##1{\ifdefstring{\blx@tmp@name}{##1}{\bfseries\listbreak}{}}%
+  \dolistloop{\boldnames}}
+\newcommand*{\boldnames}{}
+\makeatother
+
+\xpretobibmacro{name:family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:given-family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:family-given}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:delim}{\begingroup\normalfont}{}{}
+
+\xapptobibmacro{name:family}{\endgroup}{}{}
+\xapptobibmacro{name:given-family}{\endgroup}{}{}
+\xapptobibmacro{name:family-given}{\endgroup}{}{}
+\xapptobibmacro{name:delim}{\endgroup}{}{}
+
+\forcsvlist{\listadd\boldnames}
+{{Hu, Jilin}, {Hu, J.}, {J., Hu\bibnamedelima}, {Jilin, Hu}}
+
+\myname{Hu}{Jilin}
+
+\geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
+\includecomment{fullonly}
+
+\leftheader{%
+  {\LARGE\bfseries\sffamily Jilin Hu}
+
+  Full Professor, School of Data Science and Engineering, East China Normal University.
+  Research on spatio-temporal data management, traffic analytics, time series, and AI for science.
+
+  \makefield{\faHome[regular]}{Room 217, Dili Building, 3663 North Zhongshan Road, Shanghai, China}
+  \makefield{\faEnvelope[regular]}{\texttt{jlhu@dase.ecnu.edu.cn}}
+  \makefield{\faGlobe}{\url{https://hujilin1229.github.io/}}
+}
+
+\rightheader{~}
+\begin{fullonly}
+\photo[r]{Photo_Jilin}
+\photoscale{0.13}
+\end{fullonly}
+
+\title{Curriculum Vitae}
+
+\begin{document}
+\makeheaders[c]
+
+\makerubric{employment-en}
+\makerubric{project-en}
+\makerubric{awards-en}
+\makerubric{parttime-en}
+\makerubrichead{Publications}
+
+\nocite{*}
+
+\printbibliography[heading={subbibliography},title={Journal Articles},type=article,resetnumbers=true]
+\printbibliography[heading={subbibliography},title={Conference Papers},type=inproceedings,resetnumbers=true]
+
+\end{document}
