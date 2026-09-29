@@ -4,4 +4,4 @@ date: 2022-8-20
 inline: true
 ---
 
-One paper “Few-Shot Object Detection with Self-Supervising and Cooperative Classifier” is accepted by IEEE TNNLS!
+One paper “Few-Shot Object Detection with Self-Supervising and Cooperative Classifier” is accepted by IEEE Transactions on Neural Networks and Learning Systems!
